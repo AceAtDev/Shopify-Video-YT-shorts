@@ -7,7 +7,7 @@
 ## 🚀 Easy 5-Minute Setup
 
 ### Step 1: Copy the Code
-Simply copy the entire code block from the "YouTube Shorts for Shopify" file.
+Simply copy the entire code block from the "YouTube Shorts for Shopify.html" file.
 
 ### Step 2: Add to Your Shopify Store
 1. Log in to your **Shopify admin dashboard**
