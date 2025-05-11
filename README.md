@@ -2,7 +2,7 @@
 
 **Showcase your YouTube Shorts on your Shopify product pages with zero coding required!**
 
-![YouTube Shorts Banner](https://api.placeholder.com/800/350)
+![YouTube Shorts Banner](docs/demo.png)
 
 ## 🚀 Easy 5-Minute Setup
 
