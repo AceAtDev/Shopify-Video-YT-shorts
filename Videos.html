@@ -1,17 +1,57 @@
+<!-- YouTube Shorts Display for Shopify - Copy everything below this line -->
+<style>
+.youtube-shorts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
 
-<div class="iframe-container">
-  <div class="video-container">
-    <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="video-header"> </div>
+.youtube-shorts-video {
+  text-align: center;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #103948;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.youtube-shorts-video iframe {
+  width: 100%;
+  height: 450px;
+  max-width: 560px;
+  border: none;
+  border-radius: 8px;
+}
+
+.youtube-shorts-title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+@media (min-width: 600px) {
+  .youtube-shorts-video iframe {
+    height: 650px;
+  }
+}
+</style>
+
+<div class="youtube-shorts-container">
+  <div class="youtube-shorts-video">
+    <iframe src="YOUTUBE_URL_1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="youtube-shorts-title">Video Title 1</div>
   </div>
 
-  <div class="video-container">
-    <iframe src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="video-header"> </div>
+  <div class="youtube-shorts-video">
+    <iframe src="YOUTUBE_URL_2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="youtube-shorts-title">Video Title 2</div>
   </div>
 
-  <div class="video-container">
-    <iframe src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <div class="video-header"> </div>
+  <div class="youtube-shorts-video">
+    <iframe src="YOUTUBE_URL_3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="youtube-shorts-title">Video Title 3</div>
   </div>
 </div>
+<!-- End of YouTube Shorts Display code -->
