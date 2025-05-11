@@ -1,35 +1,61 @@
-# Shopify-Video-YT-shorts
+# 📱 YouTube Shorts for Shopify
 
-# How to use this?
-1. Go to your Shopify dashboard
-2. Go to online store
-3. click the "Customize" Button
-4. go to your product page
-5. On the left side, click "Add section" button
-6. Look for "Custom Liquid" and add it
-7. select it, look for the Liquid code and copy the code from video.html file and paste it there
-8. after that, scroll down and find the "Custom CSS" section
-9. copy the code from the file and paste it there
+**Showcase your YouTube Shorts on your Shopify product pages with zero coding required!**
 
-# How can I add my videos from YouTube Shorts?
-1. Go to your YT video, and from URL in your browser eg: https://www.youtube.com/shorts/XXXXXXX and replace "shorts/" with "watch?v=" eg:https://www.youtube.com/watch?v=XXXXXXX
-2. copy the modified URL and go back to your product page and to your liquid code section
-3. in the code, look  for <iframe src=""... between the "" paste your YouTube URL
-4. Repeat that two times in the other lines of the code (You should have 3 YouTube shorts video and their URL)
-5. Congrats, it should work now
+![YouTube Shorts Banner](https://api.placeholder.com/800/350)
 
-# Need help?
-You can contact me via email at mohamedshoubkydev@gmail.com (Please make sure to include "Shopify-Video-YT-shorts" in the email title, it help to answer your email quickly!)
-P.S. You can use AI chatting tools to customize the code to fit your store if you want (eg. ChatGPT) with a little knowledge of HTML and CSS you should be fine
+## 🚀 Easy 5-Minute Setup
 
-# Can I use this code for free?
-Yep, it's all yours my friend! I would appreciate it if you can star this repo, but it's not required.
+### Step 1: Copy the Code
+Simply copy the entire code block from the "YouTube Shorts for Shopify" file.
 
+### Step 2: Add to Your Shopify Store
+1. Log in to your **Shopify admin dashboard**
+2. Click on **Online Store** in the left sidebar
+3. Click the **Customize** button
+4. Navigate to your **product page**
+5. On the left side, click **Add section**
+6. Scroll down and select **Custom Liquid**
+7. In the Custom Liquid box, **paste the entire code** you copied earlier
 
+### Step 3: Add Your YouTube Shorts
+1. Find your YouTube Shorts video (Example: `https://www.youtube.com/shorts/XXXXXXX`)
+2. Convert the URL by replacing `shorts/` with `watch?v=` 
+   * Before: `https://www.youtube.com/shorts/XXXXXXX`
+   * After: `https://www.youtube.com/watch?v=XXXXXXX`
+3. In the code you pasted, replace:
+   * `YOUTUBE_URL_1` with your first YouTube video URL
+   * `YOUTUBE_URL_2` with your second YouTube video URL
+   * `YOUTUBE_URL_3` with your third YouTube video URL
+4. Optional: Change "Video Title 1", "Video Title 2", and "Video Title 3" to your video titles
 
+### Step 4: Save Your Changes
+1. Click the **Save** button in the top right corner
+2. That's it! Your YouTube Shorts are now displayed on your product page
 
+## 📱 Preview
 
+Your YouTube Shorts will appear in a beautiful, responsive layout:
+- Elegant dark blue background
+- Shadow effects for a premium look
+- Mobile-friendly design that works on all devices
+- Professional spacing and layout
 
+## 🎨 Customization Options
 
+Want to change the colors or style? No problem!
 
+In the code, you can modify:
+- `background-color: #103948;` - Change the background color
+- `color: #fff;` - Change the text color
+- Any other CSS property to match your store's design
 
+## ❓ Need Help?
+
+Contact me at aceatdeveloping@gmail.com (Include "Shopify-Video-YT-shorts" in the subject line for faster response)
+
+## 💖 Credits
+
+This tool is free to use! If you find it helpful, consider starring the GitHub repository.
+
+Created with ❤️ by Elshoubky M
